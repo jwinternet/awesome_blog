@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # My apps
     'awesome_blog.apps.AwesomeBlogConfig',
+    'taggit',
     
     # Default django apps
     'django.contrib.admin',
